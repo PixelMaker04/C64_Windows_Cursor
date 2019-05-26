@@ -1,0 +1,48 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+v
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+C64_ALTERNATE.cur
+C64_BUSY.ani
+C64_CURSOR.cur
+C64_HANDWRITE.cur
+C64_HELP.cur
+C64_HORIZONTAL.ani
+C64_LINK.ani
+C64_MOVE.ani
+C64_NESW.ani
+C64_NWSE.ani
+C64_PRECISION.ani
+C64_TEXT.cur
+C64_UNAVAILABLE.cur
+C64_VERTICAL.ani
+C64_WORKING.ani
+
+[Strings]
+CUR_DIR     = "Cursors\C64"
+SCHEME_NAME = "COMMODORE 64 v1.0"
+alternate   = "C64_ALTERNATE.cur"
+busy    = "C64_BUSY.ani"
+cross   = "C64_PRECISION.ani"
+dgn1    = "C64_NWSE.ani"
+dgn2    = "C64_NESW.ani"
+hand    = "C64_HANDWRITE.cur"
+help    = "C64_HELP.cur"
+horz    = "C64_HORIZONTAL.ani"
+link    = "C64_LINK.ani"
+move    = "C64_MOVE.ani"
+pointer = "C64_CURSOR.cur"
+text    = "C64_TEXT.cur"
+unavailiable = "C64_UNAVAILABLE.cur"
+vert    = "C64_VERTICAL.ani"
+work    = "C64_WORKING.ani"
